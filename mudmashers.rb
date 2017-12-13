@@ -25,19 +25,17 @@ end
 @magnet_links = []
 get_paged_links(33).each {|x| @magnet_links.push(get_magnet_links(x).flatten)}
 
-puts @magnet_links.flatten.length
-
-# @magnet_links.flatten.each do |x|
-# 		system("open",x)
-# 		sleep(1)
-# 		osascript <<-END
-# 		repeat 2 times
-# 		delay 1
-# 		tell applications "System Events" 
-# 		keystroke return
-# 		end tell
-# 		end repeat
-# 	END
-# end
+@magnet_links.flatten.each do |x|
+		system("open",x)
+		sleep(1)
+		osascript <<-END
+		repeat 2 times
+		delay 1
+		tell applications "System Events" 
+		keystroke return
+		end tell
+		end repeat
+	END
+end
 
 
