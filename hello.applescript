@@ -1,0 +1,1 @@
+tell application "Finder" to open location "http://www.google.com"

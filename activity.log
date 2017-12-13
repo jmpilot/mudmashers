@@ -1,0 +1,69 @@
+# Logfile created on 2017-12-12 15:02:41 -0500 by logger.rb/53141
+I, [2017-12-12T15:02:41.504508 #51671]  INFO -- : Net::HTTP::Get: /transmission/web/
+D, [2017-12-12T15:02:41.504582 #51671] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-12-12T15:02:41.504604 #51671] DEBUG -- : request-header: accept => */*
+D, [2017-12-12T15:02:41.504622 #51671] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36
+D, [2017-12-12T15:02:41.504636 #51671] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-12-12T15:02:41.504650 #51671] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-12-12T15:02:41.504663 #51671] DEBUG -- : request-header: host => localhost:9091
+I, [2017-12-12T15:02:41.556628 #51671]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-12-12T15:02:41.556730 #51671] DEBUG -- : response-header: server => Transmission
+D, [2017-12-12T15:02:41.556767 #51671] DEBUG -- : response-header: content-type => text/html
+D, [2017-12-12T15:02:41.556798 #51671] DEBUG -- : response-header: date => Tue, 12 Dec 2017 20:02:41 GMT
+D, [2017-12-12T15:02:41.556826 #51671] DEBUG -- : response-header: expires => Wed, 13 Dec 2017 20:02:41 GMT
+D, [2017-12-12T15:02:41.556850 #51671] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-12-12T15:02:41.556874 #51671] DEBUG -- : response-header: content-length => 4331
+D, [2017-12-12T15:02:41.557098 #51671] DEBUG -- : Read 4331 bytes (4331 total)
+D, [2017-12-12T15:02:41.557230 #51671] DEBUG -- : gzip response
+D, [2017-12-12T15:02:41.561658 #51671] DEBUG -- : query: "{\"download-dir\":\"/Users/joeypilot/Downloads\",\n\t\t\"filename\":\"magnet:?xt=urn:btih:b1c60145c84665c7f928cfa2407f0b3c9143b8b5&dn=Virginia+Traditions+-+Blue+Ridge+Piano+Styles+%28lp%29&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\",\n\t\t\"paused\":\"false\",\n\t\t\"method\":\"torrent-add\"}"
+I, [2017-12-12T15:02:41.561946 #51671]  INFO -- : Net::HTTP::Post: /transmission/rpc
+D, [2017-12-12T15:02:41.561976 #51671] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-12-12T15:02:41.561993 #51671] DEBUG -- : request-header: accept => */*
+D, [2017-12-12T15:02:41.562007 #51671] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36
+D, [2017-12-12T15:02:41.562021 #51671] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-12-12T15:02:41.562034 #51671] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-12-12T15:02:41.562046 #51671] DEBUG -- : request-header: host => localhost:9091
+D, [2017-12-12T15:02:41.562067 #51671] DEBUG -- : request-header: referer => http://localhost:9091/transmission/web/
+D, [2017-12-12T15:02:41.562081 #51671] DEBUG -- : request-header: content-type => json
+D, [2017-12-12T15:02:41.562093 #51671] DEBUG -- : request-header: content-length => 436
+I, [2017-12-12T15:02:41.564031 #51671]  INFO -- : status: Net::HTTPConflict 1.1 409 Conflict
+D, [2017-12-12T15:02:41.564135 #51671] DEBUG -- : response-header: server => Transmission
+D, [2017-12-12T15:02:41.564205 #51671] DEBUG -- : response-header: x-transmission-session-id => yOQtPHmvhNtyEqJH4Ymm60jzpwkou6k918z0J6Mh3xMzGxHp
+D, [2017-12-12T15:02:41.564228 #51671] DEBUG -- : response-header: date => Tue, 12 Dec 2017 20:02:41 GMT
+D, [2017-12-12T15:02:41.564244 #51671] DEBUG -- : response-header: content-length => 580
+D, [2017-12-12T15:02:41.564263 #51671] DEBUG -- : response-header: content-type => text/html; charset=ISO-8859-1
+D, [2017-12-12T15:02:41.564336 #51671] DEBUG -- : Read 580 bytes (580 total)
+I, [2017-12-12T15:06:17.333519 #51717]  INFO -- : Net::HTTP::Get: /transmission/web/
+D, [2017-12-12T15:06:17.334807 #51717] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-12-12T15:06:17.334964 #51717] DEBUG -- : request-header: accept => */*
+D, [2017-12-12T15:06:17.334987 #51717] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36
+D, [2017-12-12T15:06:17.335003 #51717] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-12-12T15:06:17.335017 #51717] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-12-12T15:06:17.335030 #51717] DEBUG -- : request-header: host => localhost:9091
+I, [2017-12-12T15:06:17.351983 #51717]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-12-12T15:06:17.352111 #51717] DEBUG -- : response-header: server => Transmission
+D, [2017-12-12T15:06:17.352154 #51717] DEBUG -- : response-header: content-type => text/html
+D, [2017-12-12T15:06:17.352183 #51717] DEBUG -- : response-header: date => Tue, 12 Dec 2017 20:06:17 GMT
+D, [2017-12-12T15:06:17.352204 #51717] DEBUG -- : response-header: expires => Wed, 13 Dec 2017 20:06:17 GMT
+D, [2017-12-12T15:06:17.352293 #51717] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-12-12T15:06:17.352324 #51717] DEBUG -- : response-header: content-length => 4331
+D, [2017-12-12T15:06:17.352537 #51717] DEBUG -- : Read 4331 bytes (4331 total)
+D, [2017-12-12T15:06:17.352747 #51717] DEBUG -- : gzip response
+D, [2017-12-12T15:06:17.358758 #51717] DEBUG -- : query: "{\"download-dir\":\"/Users/joeypilot/Downloads\",\n\t\t\"filename\":\"magnet:?xt=urn:btih:b1c60145c84665c7f928cfa2407f0b3c9143b8b5&dn=Virginia+Traditions+-+Blue+Ridge+Piano+Styles+%28lp%29&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\",\n\t\t\"paused\":\"false\",\n\t\t\"method\":\"torrent-add\"}"
+I, [2017-12-12T15:06:17.359293 #51717]  INFO -- : Net::HTTP::Post: /transmission/rpc
+D, [2017-12-12T15:06:17.359465 #51717] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-12-12T15:06:17.359528 #51717] DEBUG -- : request-header: accept => */*
+D, [2017-12-12T15:06:17.359584 #51717] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36
+D, [2017-12-12T15:06:17.359743 #51717] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-12-12T15:06:17.359792 #51717] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-12-12T15:06:17.359831 #51717] DEBUG -- : request-header: host => localhost:9091
+D, [2017-12-12T15:06:17.359900 #51717] DEBUG -- : request-header: referer => http://localhost:9091/transmission/web/
+D, [2017-12-12T15:06:17.359950 #51717] DEBUG -- : request-header: content-type => json
+D, [2017-12-12T15:06:17.359989 #51717] DEBUG -- : request-header: content-length => 436
+I, [2017-12-12T15:06:17.367200 #51717]  INFO -- : status: Net::HTTPConflict 1.1 409 Conflict
+D, [2017-12-12T15:06:17.367259 #51717] DEBUG -- : response-header: server => Transmission
+D, [2017-12-12T15:06:17.367282 #51717] DEBUG -- : response-header: x-transmission-session-id => yOQtPHmvhNtyEqJH4Ymm60jzpwkou6k918z0J6Mh3xMzGxHp
+D, [2017-12-12T15:06:17.367298 #51717] DEBUG -- : response-header: date => Tue, 12 Dec 2017 20:06:17 GMT
+D, [2017-12-12T15:06:17.367312 #51717] DEBUG -- : response-header: content-length => 580
+D, [2017-12-12T15:06:17.367326 #51717] DEBUG -- : response-header: content-type => text/html; charset=ISO-8859-1
+D, [2017-12-12T15:06:17.367385 #51717] DEBUG -- : Read 580 bytes (580 total)
